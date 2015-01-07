@@ -26,4 +26,9 @@ public class Captcha {
     public Operator getOperator() {
         return operator;
     }
+
+    public String toString(){
+        return leftOperand.toString() + operator.toString() +rightOperand.toString();
+    }
+
 }
